@@ -5,10 +5,10 @@
     "outDir": "./dist",
 
     // Environment Settings
-    "module": "esnext",
-    "target": "esnext",
+    "module": "commonjs",
+    "target": "ES2020",
     "types": ["node"],
-    "lib": ["esnext"],
+    "lib": ["ES2020"],
 
     // Other Outputs
     "sourceMap": true,
@@ -22,18 +22,14 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
+    "moduleDetection": "auto",
     "skipLibCheck": true,
-
-    // "allowImportingTsExtensions": true,
-    // "noEmit": true
 
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "resolveJsonModule": true
   },
   "include": ["src/**/*"],

@@ -1,6 +1,6 @@
 {
   "name": "@jomkv/keybud-v2-contracts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Shared TypeScript contracts for KeyBud V2",
   "keywords": [
     "keybud",
@@ -18,14 +18,12 @@
   },
   "license": "MIT",
   "author": "Jom Karlo Verzosa",
-  "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
-      "default": "./dist/index.js",
       "require": "./dist/index.js"
     }
   },
