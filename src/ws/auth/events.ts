@@ -1,14 +1,16 @@
-import type { AUTH_EVENT_NAMES } from "./event-names.ts";
+import type { AUTH_EVENT_NAMES } from "./event-names";
 import type {
   AuthSubscribePayload,
   AuthSubscribeSuccessPayload,
-} from "./payloads.js";
+} from "./payloads";
 
 export interface AuthClientToServerEvents {
-  [AUTH_EVENT_NAMES.SUBSCRIBE]: AuthSubscribePayload;
+  [AUTH_EVENT_NAMES.SUBSCRIBE]: (payload: AuthSubscribePayload) => void;
 }
 
 export interface AuthServerToClientEvents {
-  [AUTH_EVENT_NAMES.SUBSCRIBE_SUCCESS]: AuthSubscribeSuccessPayload;
-  [AUTH_EVENT_NAMES.COMPLETE]: {};
+  [AUTH_EVENT_NAMES.SUBSCRIBE_SUCCESS]: (
+    payload: AuthSubscribeSuccessPayload,
+  ) => void;
+  [AUTH_EVENT_NAMES.COMPLETE]: () => void;
 }
