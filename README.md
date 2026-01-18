@@ -40,7 +40,7 @@ Handles authentication-related WebSocket events:
 
 - **Events**:
   - `AuthClientToServerEvents` - Client-to-server event types
-  - `ServerToClientEvents` - Server-to-client event types
+  - `AuthServerToClientEvents` - Server-to-client event types
 
 - **Payloads**: `AuthSubscribePayload`, `AuthSubscribeSuccessPayload`
 
