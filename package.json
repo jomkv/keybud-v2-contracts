@@ -1,19 +1,27 @@
 {
-  "type": "module",
-  "name": "keybud-v2-contracts",
+  "name": "@jomkv/keybud-v2-contracts",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/jomkv/keybud-v2-contracts#readme",
+  "bugs": {
+    "url": "https://github.com/jomkv/keybud-v2-contracts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomkv/keybud-v2-contracts.git"
+  },
+  "license": "MIT",
+  "author": "Jom Karlo Verzosa",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.17.0",
   "devDependencies": {
     "@types/node": "^25.0.8",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "packageManager": "pnpm@10.17.0"
 }
