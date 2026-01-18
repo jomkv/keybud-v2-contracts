@@ -8,7 +8,7 @@ export interface AuthClientToServerEvents {
   [AUTH_EVENT_NAMES.SUBSCRIBE]: AuthSubscribePayload;
 }
 
-export interface ServerToClientEvents {
+export interface AuthServerToClientEvents {
   [AUTH_EVENT_NAMES.SUBSCRIBE_SUCCESS]: AuthSubscribeSuccessPayload;
   [AUTH_EVENT_NAMES.COMPLETE]: {};
 }
