@@ -1,6 +1,6 @@
 {
   "name": "@jomkv/keybud-v2-contracts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shared TypeScript contracts for KeyBud V2",
   "keywords": [
     "keybud",
@@ -24,7 +24,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
     }
   },
   "files": [
