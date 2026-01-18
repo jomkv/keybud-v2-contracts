@@ -1,3 +1,3 @@
-export * from "./event-names.ts";
-export * from "./events.ts";
-export * from "./payloads.ts";
+export * from "./event-names";
+export * from "./events";
+export * from "./payloads";

@@ -1,8 +1,13 @@
 {
   "name": "@jomkv/keybud-v2-contracts",
-  "version": "1.0.1",
-  "description": "",
-  "keywords": [],
+  "version": "1.0.2",
+  "description": "Shared TypeScript contracts for KeyBud V2",
+  "keywords": [
+    "keybud",
+    "contracts",
+    "typescript",
+    "websocket"
+  ],
   "homepage": "https://github.com/jomkv/keybud-v2-contracts#readme",
   "bugs": {
     "url": "https://github.com/jomkv/keybud-v2-contracts/issues"
@@ -14,8 +19,20 @@
   "license": "MIT",
   "author": "Jom Karlo Verzosa",
   "type": "module",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

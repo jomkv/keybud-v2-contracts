@@ -1,2 +1,2 @@
-export * from "./ws/auth/index.ts";
-export * from "./ws/messages/index.ts";
+export * from "./ws/auth/index";
+export * from "./ws/messages/index";
