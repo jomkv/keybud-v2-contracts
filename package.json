@@ -1,6 +1,6 @@
 {
   "name": "@jomkv/keybud-v2-contracts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared TypeScript contracts for KeyBud V2",
   "keywords": [
     "keybud",
